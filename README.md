@@ -7,7 +7,7 @@ This repository contains code for the PantherAI behavioural monitoring framework
 
 Please refer to the ["Documentation"](https://alexhang212.github.io/YOLO_Behaviour_Repo/) for full installation and implementation guidelines, and the [paper](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.14502) for detailed description of the method!
 
-![banner](./Images/Banner.png)
+![banner](./Images/GraphicalAbstract.png)
 
 
 ## Abstract
