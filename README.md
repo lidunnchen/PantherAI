@@ -29,8 +29,8 @@ cd Desktop/PantherAI
 
 pip install -r requirements.txt
 ```
-### -"ENVIRO" is the name of the working environment and can use any name
-### -use the cd command to set the file directory to where all your data and script are located
+#### -"ENVIRO" is the name of the working environment and can use any name
+#### -use the cd command to set the file directory to where all your data and script are located
 
 ### Run Inference on Sample Data
 After installation and downloading the sample dataset, run this in the terminal, making sure that the current working directory is in `PantherAI_Repo`. You can change your working directory by using the "cd" command:  `cd /path/to/PantherAI_Repo`
