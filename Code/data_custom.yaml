@@ -1,0 +1,8 @@
+train: C:\Users\lchen\Desktop\master_combined_compiled\train_noAug\images
+val: C:\Users\lchen\Desktop\master_combined_compiled\val_noAug\images
+test: C:\Users\lchen\Desktop\master_combined_compiled\test\images
+nc: 5
+names: ["T1_FEED", "T1_LOCO", "T1_OBMAN", "T1_REST", "T1_STEREO"]
+
+# The path to the directory containing your train.txt file
+path: C:\Users\lchen\Desktop\master_combined_compiled
