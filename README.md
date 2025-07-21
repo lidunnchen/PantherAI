@@ -36,6 +36,8 @@ After installation and downloading the sample dataset, run this in the terminal,
 python Code/3_VisualizeResults.py --Video "./Data/JaySampleData/Jay_Sample.mp4" --Weight  "./Data/Weights/JayBest.pt" --Start 0 --Frames -1
 
 ```
+[![Watch the video](https://github.com/lidunnchen/PantherAI/blob/main/Images/Video1_Still.png)](https://github.com/lidunnchen/PantherAI/blob/main/Images/SupplementalVideo1_c28_loco_obman.mp4)
+
 
 ## Citation
 ```
