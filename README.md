@@ -32,8 +32,8 @@ pip install -r requirements.txt
 ### Run Inference on Sample Data
 After installation and downloading the sample dataset, run this in the terminal, making sure that the current working directory is in `PantherAI_Repo`. You can change your working directory by using the "cd" command:  `cd /path/to/PantherAI_Repo`
 
-Please refer to the manuscript cited below for details regarding the YOLO file structure for deploying the PantherAI pipeline. Note several files and associated scripts are needed to 1) preprocess data, 2) prepare data for analysis, 3) train models, and 4) deploy models for generating activity budget plots and space use heatmaps. 
-* In addition to training data (images and associated labels/annotations), a train.txt file, .yaml file, and pretrained model weights [("yolov8m.pt"]((https://huggingface.co/Ultralytics/YOLOv8))) are needed for training and deploying predictive models on livestream video footage or precorded video sequences.
+Please refer to the manuscript cited below for details regarding the YOLO file structure for deploying the PantherAI pipeline. Note that several files and associated scripts are needed to 1) preprocess data, 2) prepare data for analysis, 3) train models, and 4) deploy models for real-time monitoring, as well as generating activity budget plots and space use heatmaps. 
+* In addition to training data (images and associated labels/annotations), a train.txt file, .yaml file, and pretrained model weights [("yolov8m.pt"](https://huggingface.co/Ultralytics/YOLOv8) are needed for training and deploying predictive models on livestream video footage or precorded video sequences.
 
 ![PantherAI Scripts](./Images/Figure3.png)
 ```
