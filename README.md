@@ -1,5 +1,5 @@
 # PantherAI: an autonomous behavioural monitoring tool for assessing activity budget and space use in a zoo-housed tiger
-Li-Dunn Chen, Stephen Dodds, Molly McGuire, Maria Frankea, Gabriela Mastromonaco
+Li-Dunn Chen, Stephen Dodds, Molly McGuire, Maria Franke, Gabriela Mastromonaco (Toronto Zoo Wildlife Health Unit)
 
 
 ## Description
@@ -16,7 +16,7 @@ Please refer to the ["Documentation"](https://alexhang212.github.io/YOLO_Behavio
 
 
 ## Quick Start
-We provide a whole pipeline from data annotation to model training to inference in the [Documentation](INSERT LINK TO REPO). Here, we will run a quick demo inference visualization. Make sure you download the [sample dataset](INSERT LINK FOR SMALL DATASET INSTALLATION), and place it under the `Data/` directory. In the future, video walkthroughs will be provided.
+We provide a whole pipeline from data annotation to model training to inference in the [Documentation](INSERT LINK TO REPO). Here, we will run a quick demo inference visualization. Make sure you download the [sample dataset](INSERT LINK FOR SMALL DATASET INSTALLATION), and place it under the `Data/` directory. In the near future, video walkthroughs will be provided.
 
 ### Installation
 There are a series of required packages to run the pipeline. We recommend creating a [conda environment](https://www.anaconda.com/). 
@@ -33,7 +33,7 @@ pip install -r requirements.txt
 After installation and downloading the sample dataset, run this in the terminal, making sure that the current working directory is in `PantherAI_Repo`. You can change your working directory by using the "cd" command:  `cd /path/to/PantherAI_Repo`
 
 Please refer to the manuscript cited below for details regarding the YOLO file structure for deploying the PantherAI pipeline. Note several files and associated scripts are needed to 1) preprocess data, 2) prepare data for analysis, 3) train models, and 4) deploy models for generating activity budget plots and space use heatmaps. 
-* In addition to training data (images and associated labels/annotations), a train.txt file, .yaml file, and the model weights ("yolov8m.pt") are needed for training and deploying predictive models on livestream video footage or precorded video sequences.
+* In addition to training data (images and associated labels/annotations), a train.txt file, .yaml file, and the model weights [("yolov8m.pt"]([url](https://huggingface.co/Ultralytics/YOLOv8))) are needed for training and deploying predictive models on livestream video footage or precorded video sequences.
 
 ![PantherAI Scripts](./Images/Figure3.png)
 ```
