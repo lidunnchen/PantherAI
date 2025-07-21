@@ -23,8 +23,9 @@ There are a series of required packages to run the pipeline. We recommend creati
 
 You can create a new environment and install required packages by running:
 ```
-conda create -n YOLO python=3.8
-conda activate YOLO
+conda create -n ENVIRO python=3.8 #change "ENVIRO" to any name specific to your project
+conda activate ENVIRO
+cd Desktop/PantherAI #set the file directory to where all your data and script are located
 
 pip install -r requirements.txt
 ```
@@ -37,7 +38,7 @@ Please refer to the manuscript cited below for details regarding the YOLO file s
 
 ![PantherAI Scripts](./Images/Figure3.png)
 ```
-python Code/3_VisualizeResults.py --Video "./Data/JaySampleData/Jay_Sample.mp4" --Weight  "./Data/Weights/JayBest.pt" --Start 0 --Frames -1
+python 10_video_inference.py
 
 ```
 [![Watch the video](https://github.com/lidunnchen/PantherAI/blob/main/Images/Video1_Still.png)](https://github.com/lidunnchen/PantherAI/blob/main/Images/SupplementalVideo1_c28_loco_obman.mp4)
