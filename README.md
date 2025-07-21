@@ -48,4 +48,4 @@ python Code/3_VisualizeResults.py --Video "./Data/JaySampleData/Jay_Sample.mp4" 
 ## Contact
 If you have any questions/ suggestions with the pipeline, or any additional instructions/ guidelines you would like to see in the documentation, feel free to leave a git issue or contact me via email:
 
-lchen[at]torontozoo.
+lchen[at]torontozoo.ca
