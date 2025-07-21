@@ -19,7 +19,7 @@ Please refer to the ["Documentation"](https://alexhang212.github.io/YOLO_Behavio
 We provide a whole pipeline from data annotation to model training to inference in the [Documentation](INSERT LINK TO REPO). Here, we will run a quick demo inference visualization. Make sure you download the [sample dataset](INSERT LINK FOR SMALL DATASET INSTALLATION), and place it under the `Data/` directory. In the near future, video walkthroughs will be provided.
 
 ### Installation
-There are a series of required packages to run the pipeline. We recommend creating a [conda environment](https://www.anaconda.com/). 
+There are a series of required packages to run the pipeline. We recommend creating a [conda environment](https://www.anaconda.com/). For ease of deployment, we recommend the use of a command line interface such as Anaconda Prompt or a code editor such as like VS Code. 
 
 You can create a new environment and install required packages by running:
 ```
@@ -29,8 +29,8 @@ cd Desktop/PantherAI
 
 pip install -r requirements.txt
 ```
-#### "ENVIRO" is the name of the working environment and can use any name
-#### use the cd command to set the file directory to where all your data and script are located
+####-"ENVIRO" is the name of the working environment and can use any name
+####-use the cd command to set the file directory to where all your data and script are located
 
 ### Run Inference on Sample Data
 After installation and downloading the sample dataset, run this in the terminal, making sure that the current working directory is in `PantherAI_Repo`. You can change your working directory by using the "cd" command:  `cd /path/to/PantherAI_Repo`
