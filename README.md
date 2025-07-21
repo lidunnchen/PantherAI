@@ -33,7 +33,7 @@ pip install -r requirements.txt
 After installation and downloading the sample dataset, run this in the terminal, making sure that the current working directory is in `PantherAI_Repo`. You can change your working directory by using the "cd" command:  `cd /path/to/PantherAI_Repo`
 
 Please refer to the manuscript cited below for details regarding the YOLO file structure for deploying the PantherAI pipeline. Note several files and associated scripts are needed to 1) preprocess data, 2) prepare data for analysis, 3) train models, and 4) deploy models for generating activity budget plots and space use heatmaps. 
-[![PantherAI Scripts]([https://github.com/lidunnchen/PantherAI/blob/main/Images/Video1_Still.png](https://github.com/lidunnchen/PantherAI/blob/main/Images/Figure3.png))]
+[![PantherAI Scripts]((https://github.com/lidunnchen/PantherAI/blob/main/Images/Figure3.png))]
 ```
 python Code/3_VisualizeResults.py --Video "./Data/JaySampleData/Jay_Sample.mp4" --Weight  "./Data/Weights/JayBest.pt" --Start 0 --Frames -1
 
