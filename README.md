@@ -45,6 +45,8 @@ python 10_video_inference.py
 ```
 [![Watch the video](https://github.com/lidunnchen/PantherAI/blob/main/Images/Video1_Still.png)](https://github.com/lidunnchen/PantherAI/blob/main/Images/SupplementalVideo1_c28_loco_obman.mp4)
 
+Once the model is reliably detecting behaviour(s) of interest, it is possible to send real-time alerts triggered by specific behaviours, such as stereotypical pacing. The triggering threshold can be easily adjusted (a single frame detection vs. two minutes vs. 10 minutes of pacing).
+![PantherAI Scripts](./Images/PantherAI_EmailAlert.png)
 
 ## Citation
 ```
