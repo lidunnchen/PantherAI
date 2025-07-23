@@ -29,24 +29,23 @@ cd Desktop/PantherAI
 
 pip install -r requirements.txt
 ```
-#### -"ENVIRO" is the name of the working environment and can use any name
-#### -use the cd command to set the file directory to where all your data and script are located
+* "ENVIRO" is the name of the working environment and can use any name
+* Use the cd command to set the file directory to where all your data and script are located
 
 ### Run Inference on Sample Data
 After installation and downloading the sample dataset, run this in the terminal, making sure that the current working directory is in `PantherAI_Repo`. You can change your working directory by using the "cd" command:  `cd /path/to/PantherAI_Repo`
 
 Please refer to the manuscript cited below for details regarding the YOLO file structure for deploying the PantherAI pipeline. Note that several files and associated scripts are needed to 1) preprocess data, 2) prepare data for analysis, 3) train models, and 4) deploy models for real-time monitoring, as well as generating activity budget plots and space use heatmaps. 
 * In addition to training data (images and associated labels/annotations), a train.txt file, .yaml file, and pretrained model weights [("yolov8m.pt"](https://huggingface.co/Ultralytics/YOLOv8)) are needed for training and deploying predictive models on livestream video footage or precorded video sequences. These files can be found in the [Data](./Data) and [Code](./Code) folders.
-
-### Behavioural Inference on Video Clips
 ![PantherAI Scripts](./Images/Figure3.png)
+
 ```
 python 10_video_inference.py
 ```
 [![Watch the video](https://github.com/lidunnchen/PantherAI/blob/main/Images/Video1_Still.png)](https://github.com/lidunnchen/PantherAI/blob/main/Images/SupplementalVideo1_c28_loco_obman.mp4) 
 
-Videos can be processed faster than real-time for retroactively assessing behavioural profiles. For example, the script, "07_activity_budget" can be used to evaluate the activity budget for any video duration and expressed as the proportion of time engaged in each behavioural category. 
-![Heatmap](./Images/Figure6.png)
+Videos can be processed faster than real-time for retroactively assessing behavioural profiles. For example, the script, "07_activity_budget" can be used to evaluate the activity budget for any video duration and express the monitoring session as the proportion of time engaged in each behavioural category. 
+![ActivityBudget](./Images/Figure6.png)
 
 Once the model is reliably detecting behaviour(s) of interest, it is possible to send real-time alerts triggered by specific behaviours, such as stereotypical pacing. The triggering threshold can be easily adjusted (a single frame detection vs. two minutes vs. 10 minutes of pacing).
 ![PantherAI Scripts](./Images/PantherAI_EmailAlert.png)
