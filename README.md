@@ -65,6 +65,6 @@ python 08_heatmap_video.py
 
 
 ## Contact
-If you have any questions/ suggestions with the pipeline, or any additional instructions/ guidelines you would like to see in the documentation, feel free to leave a git issue or contact me via email:
+If you have any questions/ suggestions with the pipeline, or any additional instructions/ guidelines you would like to see in the documentation, feel free to contact me directly via email:
 
 lchen[at]torontozoo.ca
