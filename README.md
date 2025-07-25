@@ -48,7 +48,7 @@ python 10_video_inference.py
 Videos can be processed faster than real-time for retroactively assessing behavioural profiles. For example, the script, "07_activity_budget" can be used to evaluate the activity budget for any video duration and express the monitoring session as the proportion of time engaged in each behavioural category. 
 ![ActivityBudget](./Images/Figure6.png)
 
-Once the model is reliably detecting behaviour(s) of interest, it is possible to send real-time alerts triggered by specific behaviours, such as stereotypical pacing. The triggering threshold can be easily adjusted (a single frame detection vs. two minutes vs. 10 minutes of pacing).
+Once the model is reliably detecting behaviour(s) of interest, it is possible to send real-time alerts triggered by specific behaviours, such as stereotypical pacing. The triggering threshold can be easily adjusted (a single frame detection vs. two minutes of continuous pacing). As a single missed detection could prevent the email alert from triggering, we also set a parameter specifying the percent of detected frames (e.g., 80% instead of 100%) that would qualify and initiate a pacing alert.
 ![PantherAI Scripts](./Images/PantherAI_EmailAlert.png)
 
 Furthermore, the spatial expression of behavioral categories can be visualized using the provided script:
@@ -57,11 +57,12 @@ Furthermore, the spatial expression of behavioral categories can be visualized u
 python 08_heatmap_video.py
 ```
 ![Heatmap](./Images/Figure7_heatmap.png)
+* Space usage heatmaps automatically generated from test data using PantherAI. The prevalence of each behaviour: A) Resting, B) Feeding, C) Pacing, and D) Object manipulation (interaction with enrichment items) throughout the habitat is characterized by the detection intensity colour gradient, where yellow and red regions indicate highly trafficked areas in association with the behaviour of interest, while blue and green regions represent lesser used areas.  
+
 
 ## Citation
 ```
 ```
-
 
 
 ## Contact
