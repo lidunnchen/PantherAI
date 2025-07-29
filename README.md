@@ -32,14 +32,14 @@ pip install -r requirements.txt
 * "ENVIRO" is the name of the working environment and can use any name
 * Use the cd command to set the file directory to where all your data and script are located
 
-# My Image Classification Dataset
+#### My Image Classification Dataset
 
 The provided dataset contains ~14,000 labeled images across 5 behavioural classes. It includes:
 
 - `/images/` — raw images
 - `/labels/` — YOLO-format text labels per image
 
-## 📦 Download
+#### 📦 Download
 
 **Google Drive (51 GB total)**:  
 [Download from Zenodo](INSERT LINK)
