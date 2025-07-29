@@ -32,7 +32,7 @@ pip install -r requirements.txt
 * "ENVIRO" is the name of the working environment and can use any name
 * Use the cd command to set the file directory to where all your data and script are located
 
-### PantherAI Dataset
+## PantherAI Dataset
 
 The provided dataset contains ~14,000 labeled images across 5 behavioural classes (feeding, locomotion, object manipulation, resting, and stereotypical pacing). It includes:
 
@@ -44,7 +44,7 @@ The provided dataset contains ~14,000 labeled images across 5 behavioural classe
 **Google Drive (51 GB total)**:  
 [Download from Zenodo](INSERT LINK)
 
-### Run Inference on Sample Data
+## Run Inference on Sample Data
 After installation and downloading the sample dataset, run this in the terminal, making sure that the current working directory is in `PantherAI_Repo`. You can change your working directory by using the "cd" command:  `cd /path/to/PantherAI_Repo`
 
 Please refer to the manuscript cited below for details regarding the YOLO file structure for deploying the PantherAI pipeline. Note that several files and associated scripts are needed to 1) preprocess data, 2) prepare data for analysis, 3) train models, and 4) deploy models for real-time monitoring, as well as generating activity budget plots and space use heatmaps. 
