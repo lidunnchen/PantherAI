@@ -45,7 +45,7 @@ The provided dataset contains ~14,000 labeled images across 5 behavioural classe
 [Download from Zenodo](INSERT LINK)
 
 ## Run Inference on Sample Data
-After installation and downloading the sample dataset, run this in the terminal, making sure that the current working directory is in `PantherAI_Repo`. You can change your working directory by using the "cd" command:  `cd /path/to/PantherAI_Repo`
+After installation of required softare packages and downloading the sample dataset, the below series of scripts should be executable through the Anaconda Prompt environment. Ensure that the current working directory is set to `PantherAI_Repo` or the source location of your project files. You can change your working directory by using the "cd" command:  `cd /path/to/PantherAI_Repo`
 
 Please refer to the manuscript cited below for details regarding the YOLO file structure for deploying the PantherAI pipeline. Note that several files and associated scripts are needed to 1) preprocess data, 2) prepare data for analysis, 3) train models, and 4) deploy models for real-time monitoring, as well as generating activity budget plots and space use heatmaps. 
 * In addition to training data (images and associated labels/annotations), a train.txt file, .yaml file, and pretrained model weights [("yolov8m.pt"](https://huggingface.co/Ultralytics/YOLOv8)) are needed for training and deploying predictive models on livestream video footage or precorded video sequences. These files can be found in the [Data](./Data) and [Code](./Code) folders.
