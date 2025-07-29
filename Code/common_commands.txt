@@ -7,16 +7,16 @@
 #### Refer to the associated article (Chen et al., 2025) and Supplemental Table 1 for descriptions of each script's intended usage and parameters.  
 
 
-conda activate TT # opens the working environment with the required software dependencies; refer to ìSupplemental Document 1î for more details on how to set up a environment 
+conda activate TT # opens the working environment with the required software dependencies; refer to ‚ÄúSupplemental Document 1‚Äù for more details on how to set up a environment 
 ## Replace TT with the name of your Anaconda environment
 
-cd C:\Users\lchen\Desktop\master_combined_compiled #specifies the project folder where video frames and labels are contained, along with the .yaml file brought in from the video annotation software 
+cd C:\Users\lchen\Desktop\master_combined_compiled #specifies the project folder where video frames and labels are contained, along with the "data.yaml" and "train.txt" files brought in from the video annotation software 
 
-### TRAINING YOLOV8 MODEL		
+### TRAINING YOLOV8 MODEL (the commmand below starts a training session that will run for 200 epochs using a medium size yolov8 model, image size set to 640, batch size of 45)		
 
 yolo task=detect mode=train epochs=200 data=data_custom.yaml model= yolov8m.pt imgsz=640 batch=45 patience=10 device=0 plots=True augment=False workers = 6
 
-# If not using full GPU memory, increase batch size... batch=64 brings us to full use of graphics card (23.2/24 GBs utilized)
+# If not using full GPU memory, increase batch size... batch=64 brings us to full use of graphics card (23.2/24 GBs utilized on NVIDIA RTX 4090)
 
 ### DEPLOYING YOLOV8 MODEL
 
