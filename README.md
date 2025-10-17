@@ -1,6 +1,6 @@
 # PantherAI: an autonomous behavioural monitoring tool for assessing activity budget and space use in a zoo-housed tiger
 Li-Dunn Chen, Molly McGuire, Maria Franke, Gabriela Mastromonaco (Toronto Zoo Wildlife Health Unit)
-Stephen Dodds (Juuk Inc.)
+/Stephen Dodds (Juuk Inc.)
 
 
 ## Description
