@@ -1,12 +1,13 @@
 # PantherAI: an autonomous behavioural monitoring tool for assessing activity budget and space use in a zoo-housed tiger
 Li-Dunn Chen, Molly McGuire, Maria Franke, Gabriela Mastromonaco (Toronto Zoo Wildlife Health Unit)
-/Stephen Dodds (Juuk Inc.)
+
+Stephen Dodds (Juuk Inc.)
 
 
 ## Description
 This repository contains code for the PantherAI behavioural monitoring framework, a computer vision method that can be used for real-time monitoring of CCTV livestreams for generating metrics such as activity budget and space use heatmaps.
 
-Please refer to the tutorial ["YOLO-Behaviour pipeline from Chan et al. (2025)"](https://alexhang212.github.io/YOLO_Behaviour_Repo/) for full installation and implementation guidelines, as well as our [paper](ADD LINK) for detailed description of the methods used.
+Please refer to the tutorial ["YOLO-Behaviour pipeline from Chan et al. (2025)"](https://alexhang212.github.io/YOLO_Behaviour_Repo/) for full installation guidelines, as well as our [paper](ADD LINK) for a detailed description of the methods implemented.
 
 ![banner](./Images/GraphicalAbstract.png)
 
