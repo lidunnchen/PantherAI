@@ -1,6 +1,1 @@
-Copyright © 2025 Toronto Zoo.
 
-This software is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
-You may share and adapt the material for non-commercial research and educational purposes, provided proper attribution is given.
-Commercial use is prohibited without consent and written contract with the Toronto Zoo. 
-Full license text: https://creativecommons.org/licenses/by-nc/4.0/
