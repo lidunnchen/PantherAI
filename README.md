@@ -3,7 +3,7 @@ Li-Dunn Chen, Molly McGuire, Maria Franke, Gabriela Mastromonaco (Toronto Zoo Wi
 
 Stephen Dodds (Juuk Inc.)
 
-This dataset is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
+##This dataset is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
 Use permitted for academic and non-commercial research purposes only.
 Commercial use is prohibited without explicit permission from the authors.
 
