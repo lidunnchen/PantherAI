@@ -3,6 +3,9 @@ Li-Dunn Chen, Molly McGuire, Maria Franke, Gabriela Mastromonaco (Toronto Zoo Wi
 
 Stephen Dodds (Juuk Inc.)
 
+This dataset is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
+Use permitted for academic and non-commercial research purposes only.
+Commercial use is prohibited without explicit permission from the authors.
 
 ## Description
 This repository contains code for the PantherAI behavioural monitoring framework, a computer vision method that can be used for real-time monitoring of CCTV livestreams for generating metrics such as activity budget and space use heatmaps.
