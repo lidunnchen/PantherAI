@@ -21,7 +21,7 @@ Please refer to the tutorial ["YOLO-Behaviour pipeline from Chan et al. (2025)"]
 
 
 ## Quick Start
-We provide a whole pipeline from data annotation to model training to inference in the [Documentation](INSERT LINK TO REPO). Here, we will run a quick demo inference visualization. Make sure you download the [sample dataset containing images and associated behavioural labels](https://zenodo.org/records/17497020?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImUxOGFmMWFlLTI3MzUtNGMzNC1hYzJjLWJiODQ0NGI5MmQwOSIsImRhdGEiOnt9LCJyYW5kb20iOiI4ODk0OTI3MDNlZmFkMTk3NWVlMmZlZDBjMDM5ZjRkNiJ9.126GeRvizJagtLPX5JzkdT6-ZJZq6jRpwoJILhKOAopVHt_dkcuMXDEQ-s4lyzgt-FKpj_BKUvpVJc2IX12XRA). In the near future, video walkthroughs will be provided.
+We provide the whole computer vision pipeline from data annotation to model training and deployment in the associated Ecological Informatics article linked above. Here, we will run a quick demo inference visualization. Make sure you download the [sample dataset containing images and associated behavioural labels](https://zenodo.org/records/17497020?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImUxOGFmMWFlLTI3MzUtNGMzNC1hYzJjLWJiODQ0NGI5MmQwOSIsImRhdGEiOnt9LCJyYW5kb20iOiI4ODk0OTI3MDNlZmFkMTk3NWVlMmZlZDBjMDM5ZjRkNiJ9.126GeRvizJagtLPX5JzkdT6-ZJZq6jRpwoJILhKOAopVHt_dkcuMXDEQ-s4lyzgt-FKpj_BKUvpVJc2IX12XRA). In the near future, video walkthroughs will be provided.
 
 ### Installation
 There are a series of required packages to run the pipeline. We recommend creating a [conda environment](https://www.anaconda.com/). For ease of deployment, we recommend the use of a command line interface such as Anaconda Prompt or a code editor such as like VS Code. 
