@@ -10,7 +10,8 @@ Commercial use is prohibited without explicit permission from the authors.
 ## Description
 This repository contains code for the PantherAI behavioural monitoring framework, a computer vision method that can be used for real-time monitoring of CCTV livestreams for generating metrics such as activity budget and space use heatmaps.
 
-Please refer to the tutorial ["YOLO-Behaviour pipeline from Chan et al. (2025)"](https://alexhang212.github.io/YOLO_Behaviour_Repo/) for full installation guidelines, as well as our [paper](ADD LINK) for a detailed description of the methods implemented.
+Please refer to the tutorial ["YOLO-Behaviour pipeline from Chan et al. (2025)"](https://alexhang212.github.io/YOLO_Behaviour_Repo/) for full installation guidelines, as well as our [paper](	
+https://doi.org/10.1016/j.ecoinf.2025.103584) for a detailed description of the methods implemented.
 
 ![banner](./Images/GraphicalAbstract.png)
 
