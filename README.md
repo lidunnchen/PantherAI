@@ -80,6 +80,7 @@ python 08_heatmap_video.py
 
 ## Citation
 ```
+Chen, L-D., Dodds, S., McGuire, M., Franke, M., & Mastromonaco, G. (2025). PantherAI: An autonomous behavioural monitoring tool for assessing activity budget and space use in a zoo-housed tiger. Ecological Informatics, 103584. https://doi.org/10.1016/j.ecoinf.2025.103584
 ```
 
 
